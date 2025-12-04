@@ -14,5 +14,10 @@ jobs:
   date_job:
     runs-on: ubuntu-latest
     steps:
-    - name: Second job step
+    - name: Second job stepa
       run: date
+  dir_listing_job:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Third job step
+      run: ls -la
