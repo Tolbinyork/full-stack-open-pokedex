@@ -179,7 +179,7 @@ footer {
 }
 
 .pokemon-type-grass {
-  --pokemon-type-color: #8c5;
+  --pokemon-type-color: rgb(26, 36, 19);
 }
 
 .pokemon-type-ground {
