@@ -20,7 +20,7 @@ module.exports = {
   'plugins': [
     'react', 'jest'
   ],
-  'rules': {C
+  'rules': {
     'indent': [
       'error',
       2
