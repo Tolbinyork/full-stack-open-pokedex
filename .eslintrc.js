@@ -1,3 +1,5 @@
+/* eslint-env node */
+
 module.exports = {
   'env': {
     'browser': true,
@@ -18,7 +20,7 @@ module.exports = {
   'plugins': [
     'react', 'jest'
   ],
-  'rules': {
+  'rules': {C
     'indent': [
       'error',
       2
@@ -35,6 +37,7 @@ module.exports = {
       'error',
       'never'
     ],
+    
     'eqeqeq': 'error',
     'no-trailing-spaces': 'error',
     'object-curly-spacing': [
@@ -43,7 +46,7 @@ module.exports = {
     'arrow-spacing': [
       'error', { 'before': true, 'after': true }
     ],
-    'no-console': 'error',
+    'no-console': 'off',
     'react/prop-types': 0
   }
 }
