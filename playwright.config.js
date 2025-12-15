@@ -6,12 +6,12 @@ const config = {
   testIgnore: ['**/*.jest.*'], // ignore Jest tests
   webServer: {
     command: 'npm run start',
-    url: 'http://localhost:8081',
-    timeout: 180000,
+    url: 'http://localhost:8001',
+    timeout: 120 * 1000,
     reuseExistingServer: !process.env.CI,
   },
   use: {
-    baseURL: 'http://localhost:8081/',
+    baseURL: 'http://localhost:8001/',
   },
 }
 
