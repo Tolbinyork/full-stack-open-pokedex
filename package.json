@@ -7,7 +7,7 @@
     "start": "webpack-dev-server --open --mode development",
     "start-prod": "node app.js",
     "test": "jest",
-    "e2e-test": "playwright test",
+    "e2e-test": "playwright test --reporter=html",
     "e2e-test:report": "playwright show-report",
     "eslint": "eslint './**/*.{js,jsx}'",
     "build": "webpack --mode production"
