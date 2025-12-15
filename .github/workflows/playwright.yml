@@ -8,7 +8,7 @@ jobs:
     playwright_tests:
         runs-on: ubuntu-latest
         env:
-            PORT: 8080
+            PORT: 8081
         steps:
             - uses: actions/checkout@v5
             - uses: actions/setup-node@v5
