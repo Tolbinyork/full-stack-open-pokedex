@@ -21,7 +21,4 @@ jobs:
               run: npx playwright install --with-deps
             - name: Run Playwright tests
               run: npm run e2e-test
-            - name: Show Playwright report
-              if: always()
-              run: npm run e2e-test:report
-
+           
